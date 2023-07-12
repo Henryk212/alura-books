@@ -1,16 +1,22 @@
 import React from 'react'
-import './styles.css'
 import logo from '../../imagens/logo.svg'
+import { styled } from 'styled-components'
+
+const LogoPrincipal = styled.div`
+  display: flex;
+  font-size: 30px;
+`
+const LogoImg= styled.img`
+  margin-right: 10px;
+`
 
 export default function Logo() {
   return (
-    <div className='logo'>
-          <img src={logo} 
-          className='logo-img'
-          alt='Logo Alura books'
-          ></img>
-          <p><strong>Alura Books</strong></p>
-
-        </div>
+    <LogoPrincipal>
+      <LogoImg src={logo} 
+        alt='Logo Alura books'
+      />
+      <p><strong>Alura Books</strong></p>
+    </LogoPrincipal>
   )
 }
