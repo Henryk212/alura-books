@@ -10,6 +10,7 @@ const PesquisaContainer = styled.section`
         padding: 85px 0;
         height: 270px;
         width: 100%;
+        overflow: auto;
        
         
 `
@@ -26,7 +27,6 @@ const Subtitulo = styled.h3`
 `
 const Resultado = styled.div`
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-bottom: 20px;
