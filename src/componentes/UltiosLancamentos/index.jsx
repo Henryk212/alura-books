@@ -10,6 +10,7 @@ const UltimosLancamentosContainer = styled.section`
     padding-bottom: 20px;
     display: flex;
     flex-direction: column;
+   
 `
 const NovosLivrosContainer = styled.div`
     margin-top: 30px;
